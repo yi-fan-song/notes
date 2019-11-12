@@ -2,7 +2,7 @@
 tags: [Bash, Linux, Notebooks/Deployment Goodies, Notebooks/Documentation]
 title: Bash Useful Commands
 created: '2019-11-11T02:15:31.486Z'
-modified: '2019-11-11T04:02:05.052Z'
+modified: '2019-11-12T02:24:11.732Z'
 ---
 
 # Bash Useful Commands
@@ -35,4 +35,18 @@ Use mv
 mv {file(s)} {destination}
 
 mv /path/to/file file /path/to/dest/
+```
+
+## Concatenating files
+
+Use cat
+```console
+# concatenate and print
+dev@ubuntu:~$ cat file1.txt file2.txt ...
+
+# concatenate file1 and file2 into output
+dev@ubuntu:~$ cat file1.txt file2.txt ... > output.txt
+
+# concatenate file1 into file2
+dev@ubuntu:~$ cat file1.txt >> file2.txt
 ```
